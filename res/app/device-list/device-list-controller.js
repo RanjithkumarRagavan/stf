@@ -64,6 +64,14 @@ module.exports = function DeviceListCtrl(
     , selected: false
     }
   , {
+      name: 'cpuPlatform'
+    , selected: false
+    }
+  , {
+      name: 'openGLESVersion'
+    , selected: false
+    }
+  , {
       name: 'browser'
     , selected: false
     }
@@ -73,6 +81,10 @@ module.exports = function DeviceListCtrl(
     }
   , {
       name: 'imei'
+    , selected: false
+    }
+  , {
+      name: 'imsi'
     , selected: false
     }
   , {
